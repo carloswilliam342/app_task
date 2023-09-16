@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200&display=swap');
+
+:root{
+    --ff:"Poppins", sans-serif;
+    --transition: all 0.3s linear;
+    --clr-red: #ec3948;
+    --clr-blue: #43c1fc;
+    --clr-green: #39ec99;
+}
+
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box0;
+}
+
+/* Formulário */
+.main{
+    width: 90vh;
+    margin: 0 auto;
+    max-width: 35rem;
+    margin-top: 8rem;
+    background: #222;
+    color: #eee;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    padding: 1.2rem 2rem 1.8rem;
+}
+
+.alert{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    padding: .5rem 0;
+    border-radius: .25rem;
+    font-size: .7rem;
+    text-align: center;
+    font-weight: bold;
+    color: #0daa61;
+    
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: .7rem;
+}
+
+
+
+.titulo3,.titulo2{
+    text-align: center;
+    margin-bottom: .5rem;
+    justify-content: center;
+    outline: none;
+    background: #222;
+    color: #eee;
+    border-radius: 0.5rem 0 0 0.5rem;
+    font-size: 1rem;
+    padding: 0.3rem 0.7rem;
+    flex: 1;
+    font-family: var(--ff);
+}
+
+.titulo3{
+    margin-right: 27px;
+}
+
+.btn{
+    text-align: center;
+    outline: none;
+    background-color: #222;
+    color: #eee;
+    font-size: .9rem;
+    padding: 0.3rem 0.7rem;
+    flex: 0 0 .2rem;
+    cursor: pointer;
+    transition: background-color .2s,
+                    color .2s;
+    font-family: var(--ff);
+    font-weight: bold;
+}
+
+.apagar{
+    border: 1px solid lightgrey;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.3 0.7rem;
+    cursor: pointer;
+    color: #c0111f;
+    background-color: #f78d96;
+    display: block;
+    margin: 1.2rem auto 0;
+    max-width: 170px;
+}
+
+.back{
+    border: 2px solid lightgrey;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.3 0.7rem;
+    cursor: pointer;
+    color: #26244a;
+    background-color: #706bc9;
+    display: block;
+    margin: 1.2rem auto 0;
+    max-width: 135px;
+}
+
+.back:hover{
+    background-color: #5dbea3;
+    color: #33b249;
+}
+
+.edite{
+    border: 2px solid lightgrey;
+    outline: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.3 0.7rem;
+    cursor: pointer;
+    color: #4681f4;
+    background-color: #ffbd03;
+    display: block;
+    margin: 1.2rem auto 0;
+    max-width: 135px;
+}
+
