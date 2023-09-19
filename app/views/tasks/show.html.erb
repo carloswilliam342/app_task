@@ -5,17 +5,17 @@
 <%= render @task %>
 
 <div class="back">
-  <%= link_to "Back to tasks", tasks_path %>
+  <%= link_to "Mostrar lista de tarefas", tasks_path %>
 </div>
 <div class="edite">
-  <%= link_to "Edit this task", edit_task_path(@task) %>
+  <%= link_to "Editar tarefa", edit_task_path(@task) %>
 </div> 
 
 <div class="apagar">
-    <%= link_to "Destroy this task", task_path(@task), data:{
+    <%= link_to "Apagar tarefa", task_path(@task), data:{
         turbo_method: :delete,
         turbo_confirm: "Você tem certeza?"
     }%>
 </div>
 
-<img src= "images/trash.png">
+

@@ -1,11 +1,13 @@
-<div class="titulo">
-  <h1>Nova Tarefa</h1>
-</div>
+<div class="main">
+  <div class="titulo">
+    <h1>Nova Tarefa</h1>
+  </div>
 
-<%= render "form", task: @task %>
+  <%= render "form", task: @task %>
 
-<br>
+  <br>
 
-<div class="back">
-  <%= link_to "Back to tasks", tasks_path %>
+  <div class="back">
+    <%= link_to "Voltar para tarefas", tasks_path %>
+  </div>
 </div>
